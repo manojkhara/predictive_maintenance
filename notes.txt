@@ -1,0 +1,10 @@
+When it comes to dealing with machines that require periodic maintenance, there are generally three possible outcomes.
+
+1) You can maintain a machine too frequently. In this scenario, you are throwing money out the window, wasting resources providing unnecessary maintenance. 
+2) You don’t maintain your machine frequently enough. Failing to maintain a machine means that the machine will break while operating. Here, the costs could be substantial. Not only do you have the repair costs, but also costs associated with lost production. If a machine on the assembly line goes down, the line cannot produce anything. No production means lost profit. Also, you will incur legal and medical costs if injuries occurred as a result of the failure.
+3) A machine is maintained when it needs maintenance. This is obviously the better alternative of the three. Note, that that there is still a cost associated with timely maintenance.
+
+Predictive maintenance (PM) can tell you, based on data, when a machine requires maintenance. 
+
+To do this, we will build a predictive model that predicts machine failure within 90 days of actual failure. 
+Note that an appropriate failure window will always depend on the context of the problem. If a machine breaks without maintenance in 6 months, a three-month window makes no sense. Here, where a machine will run between 4 to 6 years without maintenance, a 90-day window is reasonable.

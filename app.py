@@ -1,0 +1,1 @@
+!rm equipment_failure_data_1.csv
